@@ -1,0 +1,14 @@
+1
+1 + 1
+10.rand 
+().play
+Server.default.boot
+().play
+(degree: 1).play
+(degree: 10.rand).play
+(degree: [5, 6,7]).play
+(degree: [7.rand, 8.rand, 7]).play
+(degree: Array.rand(5, 5, 10)).play
+(degree: Array.rand(5, -10.rrand(20), 30)).play
+(degree: Array.rand(3.rrand(10), 5, 30)).play
+(degree: Array.rand(5.rand +9, 5, 30)).play
